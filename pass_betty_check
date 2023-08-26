@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int _islower(int ch);
+
+/**
+ * _islower - is a function that checks
+ * if a character is in lowercase
+ * Description: this is a simple task
+ * that passes betty checks
+ * @ch: char to be checked
+ * Return: 0 on success or 1 otherwise
+ */
+int _islower(int ch)
+{
+	if (ch >= 'a' && ch >= 'z')
+		return (0);
+	else
+		return (1);
+}
